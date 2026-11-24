@@ -1,5 +1,24 @@
 ## Hi there 👋
 
+
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/TejassKay/TejassKay/output/github-snake-dark.svg"
+    />
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/TejassKay/TejassKay/output/github-snake.svg"
+    />
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/TejassKay/TejassKay/output/github-snake.svg"
+    />
+  </picture>
+</p>
+
+
 <!--
 **TejassKay/TejassKay** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
