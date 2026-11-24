@@ -17,13 +17,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Snake
+      - name: Generate Emerald Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake.svg?palette=github-dark&color_snake=%2300E5FF&color_dots=%2307120D,%230B2B1D,%230F5132,%23178A52,%2339D98A
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2300E5FF&color_dots=%2307120D,%230B2B1D,%230F5132,%23178A52,%2339D98A
 
       - name: Deploy Snake Animation
         uses: crazy-max/ghaction-github-pages@v3.1.0
